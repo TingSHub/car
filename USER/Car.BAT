@@ -1,0 +1,32 @@
+SET PATH=D:\Keil_v5\ARM\ARMCC\Bin;C:\Program Files\VanDyke Software\Clients\;D:\python\Scripts\;D:\python\;D:\VMware\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Bandizip\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Git\Git\cmd;C:\Program Files\dotnet\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\MinGW\bin;D:\VScode\Microsoft VS Code\bin;D:\python\python.exe;D:\PyCharm\PyCharm Community Edition 2021.3.3\bin;;C:\Users\Administrator\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\sqlite\sqlite-tools-win32-x86-3380500;
+SET CPU_TYPE=STM32F407ZGTx
+SET CPU_VENDOR=STMicroelectronics
+SET UV2_TARGET=Car
+SET CPU_CLOCK=0x00B71B00
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\main.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f4xx_it.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\system_stm32f4xx.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\led.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\pwm.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\motor.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\speed.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\timer.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\datascope_dp.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\show.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\pid.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\bluetooth.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\oled.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\adc.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\delay.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\sys.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\usart.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmAsm" --Via "..\obj\startup_stm32f40_41xxx._ia"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\misc.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f4xx_gpio.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f4xx_usart.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f4xx_tim.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f4xx_syscfg.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f4xx_rcc.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmCC" --Via "..\obj\stm32f4xx_adc.__i"
+"D:\Keil_v5\ARM\ARMCC\Bin\ArmLink" --Via "..\OBJ\PWM.lnp"
+"D:\Keil_v5\ARM\ARMCC\Bin\fromelf.exe" "..\OBJ\PWM.axf" --i32combined --output "..\OBJ\PWM.hex"
